@@ -80,7 +80,9 @@ BOOL hasRun = false;
     
     // remount FS as r/w
     ret = remountRootFs();
-    if (ret != 0) {
+    if (ret != 0 &&
+        ret != -61 &&
+        ret != -62) {
         [self writeText:[NSString stringWithFormat:@"failed to remount: %d", ret]];
         [self failure];
         return;
