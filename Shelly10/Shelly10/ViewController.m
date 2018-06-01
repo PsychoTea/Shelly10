@@ -107,8 +107,15 @@ BOOL hasRun = false;
         inject_trust("/bin/bash");
     }
     
+    // other random shell bullshit
+    inject_trust("/usr/lib/libreadline.6.0.dylib");
+    inject_trust("/usr/lib/libhistory.6.0.dylib");
+    inject_trust("/usr/lib/libncurses.5.dylib");
+    
     const char *args[] = (const char *[]) {
         "/shelly/bins/dropbear",
+        "-p",
+        "22",
         "-p",
         "2222",
         "-R",
