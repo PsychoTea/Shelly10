@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina5_5" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Shelly10" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ade-RM-buN">
+                                <rect key="frame" x="72" y="50" width="269" height="50.666666666666657"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="42"/>
+                                <color key="textColor" red="0.92145264149999995" green="0.0086264143739679718" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="9b2-wS-7Am">
+                                <rect key="frame" x="197" y="197" width="20" height="20"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="20" id="bGr-NZ-KJw"/>
+                                    <constraint firstAttribute="height" constant="20" id="nHM-y5-gqg"/>
+                                </constraints>
+                            </activityIndicatorView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="&gt; Welcome to Shelly10. &gt; Press buttons to begin. " textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jyn-U3-I9a">
+                                <rect key="frame" x="20" y="253" width="374" height="463"/>
+                                <color key="backgroundColor" white="0.20000000000000001" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="textColor" red="0.99019607840000001" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mUk-W1-hUS">
+                                <rect key="frame" x="54" y="143" width="306" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="Uav-VD-T0u"/>
+                                </constraints>
+                                <state key="normal" title="pop me a shell please sir"/>
+                                <connections>
+                                    <action selector="goButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="yHI-Ga-7Xu"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="mUk-W1-hUS" secondAttribute="trailing" constant="54" id="8re-Co-Z7v"/>
+                            <constraint firstItem="mUk-W1-hUS" firstAttribute="top" secondItem="Ade-RM-buN" secondAttribute="bottom" constant="42.333333333333343" id="CIR-p1-EMM"/>
+                            <constraint firstItem="9b2-wS-7Am" firstAttribute="top" secondItem="mUk-W1-hUS" secondAttribute="bottom" constant="24" id="Fdw-87-b3g"/>
+                            <constraint firstItem="Jyn-U3-I9a" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="JmC-ar-Owg"/>
+                            <constraint firstItem="mUk-W1-hUS" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="54" id="RLH-Vi-88K"/>
+                            <constraint firstItem="Ade-RM-buN" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="30" id="TI7-fZ-pvi"/>
+                            <constraint firstItem="Jyn-U3-I9a" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="X11-d8-Ivc"/>
+                            <constraint firstItem="9b2-wS-7Am" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="acf-ZA-REl"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Jyn-U3-I9a" secondAttribute="trailing" constant="20" id="c0B-14-Xij"/>
+                            <constraint firstItem="Ade-RM-buN" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="72" id="coI-Qn-o3d"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Ade-RM-buN" secondAttribute="trailing" constant="73" id="tfI-8c-vQO"/>
+                            <constraint firstItem="Jyn-U3-I9a" firstAttribute="top" secondItem="Ade-RM-buN" secondAttribute="bottom" constant="152.5" id="zcK-oo-7ET"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Jyn-U3-I9a" secondAttribute="bottom" constant="20" id="zgN-dw-MfO"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="goButton" destination="mUk-W1-hUS" id="Pvb-iS-mJA"/>
+                        <outlet property="spinnyWheel" destination="9b2-wS-7Am" id="EAT-nZ-GQD"/>
+                        <outlet property="textArea" destination="Jyn-U3-I9a" id="m89-KP-hRP"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="115.94202898550725" y="117.39130434782609"/>
+        </scene>
+    </scenes>
+</document>

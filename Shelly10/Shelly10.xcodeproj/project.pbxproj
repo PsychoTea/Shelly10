@@ -1,0 +1,441 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B5F8942B20C1345F00F0AB04 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B5F8942A20C1345F00F0AB04 /* AppDelegate.m */; };
+		B5F8942E20C1345F00F0AB04 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B5F8942D20C1345F00F0AB04 /* ViewController.m */; };
+		B5F8943120C1345F00F0AB04 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5F8942F20C1345F00F0AB04 /* Main.storyboard */; };
+		B5F8943320C1345F00F0AB04 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5F8943220C1345F00F0AB04 /* Assets.xcassets */; };
+		B5F8943620C1345F00F0AB04 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5F8943420C1345F00F0AB04 /* LaunchScreen.storyboard */; };
+		B5F8944A20C1380C00F0AB04 /* v0rtex.m in Sources */ = {isa = PBXBuildFile; fileRef = B5F8944020C1380B00F0AB04 /* v0rtex.m */; };
+		B5F8944C20C1380C00F0AB04 /* root-rw.m in Sources */ = {isa = PBXBuildFile; fileRef = B5F8944520C1380B00F0AB04 /* root-rw.m */; };
+		B5F8944E20C1380C00F0AB04 /* offsetfinder.mm in Sources */ = {isa = PBXBuildFile; fileRef = B5F8944820C1380B00F0AB04 /* offsetfinder.mm */; };
+		B5F8944F20C1380C00F0AB04 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B5F8944920C1380B00F0AB04 /* main.m */; };
+		B5F8945620C1388200F0AB04 /* liboffsetfinder64.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B5F8945120C1388200F0AB04 /* liboffsetfinder64.a */; };
+		B5F8945720C1388200F0AB04 /* libmerged.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B5F8945220C1388200F0AB04 /* libmerged.a */; };
+		B5F8945820C1388200F0AB04 /* libimg4tool.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B5F8945320C1388200F0AB04 /* libimg4tool.a */; };
+		B5F8945920C1388200F0AB04 /* libplist.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B5F8945420C1388200F0AB04 /* libplist.a */; };
+		B5F8945A20C1388200F0AB04 /* libplist++.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B5F8945520C1388200F0AB04 /* libplist++.a */; };
+		B5F8945C20C1394400F0AB04 /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5F8945B20C1394400F0AB04 /* IOKit.framework */; };
+		B5F8945E20C1394900F0AB04 /* libcompression.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = B5F8945D20C1394900F0AB04 /* libcompression.tbd */; };
+		B5F8946120C1397A00F0AB04 /* kernel.m in Sources */ = {isa = PBXBuildFile; fileRef = B5F8945F20C1397A00F0AB04 /* kernel.m */; };
+		B5F8946420C139A700F0AB04 /* patchfinder64.c in Sources */ = {isa = PBXBuildFile; fileRef = B5F8946320C139A700F0AB04 /* patchfinder64.c */; };
+		B5F8946720C139C100F0AB04 /* helpers.m in Sources */ = {isa = PBXBuildFile; fileRef = B5F8946520C139C100F0AB04 /* helpers.m */; };
+		B5F8946A20C139EF00F0AB04 /* amfi.m in Sources */ = {isa = PBXBuildFile; fileRef = B5F8946820C139EF00F0AB04 /* amfi.m */; };
+		B5F8946D20C13A1400F0AB04 /* untar.m in Sources */ = {isa = PBXBuildFile; fileRef = B5F8946C20C13A1400F0AB04 /* untar.m */; };
+		B5F8947120C13D2500F0AB04 /* libkutil.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B5F8947020C13D2500F0AB04 /* libkutil.a */; };
+		B5F8947320C13EAA00F0AB04 /* bootstrap.tar in Resources */ = {isa = PBXBuildFile; fileRef = B5F8947220C13EAA00F0AB04 /* bootstrap.tar */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B5F8942620C1345F00F0AB04 /* Shelly10.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Shelly10.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5F8942A20C1345F00F0AB04 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B5F8942C20C1345F00F0AB04 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B5F8942D20C1345F00F0AB04 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B5F8943020C1345F00F0AB04 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B5F8943220C1345F00F0AB04 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B5F8943520C1345F00F0AB04 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B5F8943720C1345F00F0AB04 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B5F8943F20C1380B00F0AB04 /* liboffsetfinder64.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = liboffsetfinder64.hpp; sourceTree = "<group>"; };
+		B5F8944020C1380B00F0AB04 /* v0rtex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = v0rtex.m; sourceTree = "<group>"; };
+		B5F8944220C1380B00F0AB04 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B5F8944320C1380B00F0AB04 /* root-rw.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "root-rw.h"; sourceTree = "<group>"; };
+		B5F8944520C1380B00F0AB04 /* root-rw.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "root-rw.m"; sourceTree = "<group>"; };
+		B5F8944620C1380B00F0AB04 /* v0rtex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = v0rtex.h; sourceTree = "<group>"; };
+		B5F8944820C1380B00F0AB04 /* offsetfinder.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = offsetfinder.mm; sourceTree = "<group>"; };
+		B5F8944920C1380B00F0AB04 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B5F8945120C1388200F0AB04 /* liboffsetfinder64.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = liboffsetfinder64.a; path = Shelly10/liboffsetfinder64.a; sourceTree = "<group>"; };
+		B5F8945220C1388200F0AB04 /* libmerged.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libmerged.a; path = Shelly10/libmerged.a; sourceTree = "<group>"; };
+		B5F8945320C1388200F0AB04 /* libimg4tool.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libimg4tool.a; path = Shelly10/libimg4tool.a; sourceTree = "<group>"; };
+		B5F8945420C1388200F0AB04 /* libplist.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libplist.a; path = Shelly10/libplist.a; sourceTree = "<group>"; };
+		B5F8945520C1388200F0AB04 /* libplist++.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libplist++.a"; path = "Shelly10/libplist++.a"; sourceTree = "<group>"; };
+		B5F8945B20C1394400F0AB04 /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = System/Library/Frameworks/IOKit.framework; sourceTree = SDKROOT; };
+		B5F8945D20C1394900F0AB04 /* libcompression.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libcompression.tbd; path = usr/lib/libcompression.tbd; sourceTree = SDKROOT; };
+		B5F8945F20C1397A00F0AB04 /* kernel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = kernel.m; sourceTree = "<group>"; };
+		B5F8946020C1397A00F0AB04 /* kernel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = kernel.h; sourceTree = "<group>"; };
+		B5F8946220C139A700F0AB04 /* patchfinder64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = patchfinder64.h; sourceTree = "<group>"; };
+		B5F8946320C139A700F0AB04 /* patchfinder64.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = patchfinder64.c; sourceTree = "<group>"; };
+		B5F8946520C139C100F0AB04 /* helpers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = helpers.m; sourceTree = "<group>"; };
+		B5F8946620C139C100F0AB04 /* helpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = helpers.h; sourceTree = "<group>"; };
+		B5F8946820C139EF00F0AB04 /* amfi.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = amfi.m; sourceTree = "<group>"; };
+		B5F8946920C139EF00F0AB04 /* amfi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = amfi.h; sourceTree = "<group>"; };
+		B5F8946B20C13A1400F0AB04 /* untar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = untar.h; sourceTree = "<group>"; };
+		B5F8946C20C13A1400F0AB04 /* untar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = untar.m; sourceTree = "<group>"; };
+		B5F8946E20C13B5E00F0AB04 /* offsetfinder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = offsetfinder.h; sourceTree = "<group>"; };
+		B5F8946F20C13D1600F0AB04 /* libkern.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = libkern.h; sourceTree = "<group>"; };
+		B5F8947020C13D2500F0AB04 /* libkutil.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libkutil.a; path = Shelly10/libkutil.a; sourceTree = "<group>"; };
+		B5F8947220C13EAA00F0AB04 /* bootstrap.tar */ = {isa = PBXFileReference; lastKnownFileType = archive.tar; path = bootstrap.tar; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B5F8942320C1345F00F0AB04 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5F8947120C13D2500F0AB04 /* libkutil.a in Frameworks */,
+				B5F8945E20C1394900F0AB04 /* libcompression.tbd in Frameworks */,
+				B5F8945C20C1394400F0AB04 /* IOKit.framework in Frameworks */,
+				B5F8945620C1388200F0AB04 /* liboffsetfinder64.a in Frameworks */,
+				B5F8945720C1388200F0AB04 /* libmerged.a in Frameworks */,
+				B5F8945820C1388200F0AB04 /* libimg4tool.a in Frameworks */,
+				B5F8945920C1388200F0AB04 /* libplist.a in Frameworks */,
+				B5F8945A20C1388200F0AB04 /* libplist++.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B5F8941D20C1345F00F0AB04 = {
+			isa = PBXGroup;
+			children = (
+				B5F8942820C1345F00F0AB04 /* Shelly10 */,
+				B5F8942720C1345F00F0AB04 /* Products */,
+				B5F8945020C1388100F0AB04 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B5F8942720C1345F00F0AB04 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B5F8942620C1345F00F0AB04 /* Shelly10.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B5F8942820C1345F00F0AB04 /* Shelly10 */ = {
+			isa = PBXGroup;
+			children = (
+				B5F8947220C13EAA00F0AB04 /* bootstrap.tar */,
+				B5F8946920C139EF00F0AB04 /* amfi.h */,
+				B5F8946820C139EF00F0AB04 /* amfi.m */,
+				B5F8946020C1397A00F0AB04 /* kernel.h */,
+				B5F8945F20C1397A00F0AB04 /* kernel.m */,
+				B5F8944220C1380B00F0AB04 /* AppDelegate.h */,
+				B5F8942A20C1345F00F0AB04 /* AppDelegate.m */,
+				B5F8942C20C1345F00F0AB04 /* ViewController.h */,
+				B5F8942D20C1345F00F0AB04 /* ViewController.m */,
+				B5F8946F20C13D1600F0AB04 /* libkern.h */,
+				B5F8943F20C1380B00F0AB04 /* liboffsetfinder64.hpp */,
+				B5F8944920C1380B00F0AB04 /* main.m */,
+				B5F8946E20C13B5E00F0AB04 /* offsetfinder.h */,
+				B5F8944820C1380B00F0AB04 /* offsetfinder.mm */,
+				B5F8946620C139C100F0AB04 /* helpers.h */,
+				B5F8946520C139C100F0AB04 /* helpers.m */,
+				B5F8944320C1380B00F0AB04 /* root-rw.h */,
+				B5F8946320C139A700F0AB04 /* patchfinder64.c */,
+				B5F8946220C139A700F0AB04 /* patchfinder64.h */,
+				B5F8944520C1380B00F0AB04 /* root-rw.m */,
+				B5F8946B20C13A1400F0AB04 /* untar.h */,
+				B5F8946C20C13A1400F0AB04 /* untar.m */,
+				B5F8944620C1380B00F0AB04 /* v0rtex.h */,
+				B5F8944020C1380B00F0AB04 /* v0rtex.m */,
+				B5F8942F20C1345F00F0AB04 /* Main.storyboard */,
+				B5F8943220C1345F00F0AB04 /* Assets.xcassets */,
+				B5F8943420C1345F00F0AB04 /* LaunchScreen.storyboard */,
+				B5F8943720C1345F00F0AB04 /* Info.plist */,
+			);
+			path = Shelly10;
+			sourceTree = "<group>";
+		};
+		B5F8945020C1388100F0AB04 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B5F8947020C13D2500F0AB04 /* libkutil.a */,
+				B5F8945D20C1394900F0AB04 /* libcompression.tbd */,
+				B5F8945B20C1394400F0AB04 /* IOKit.framework */,
+				B5F8945320C1388200F0AB04 /* libimg4tool.a */,
+				B5F8945220C1388200F0AB04 /* libmerged.a */,
+				B5F8945120C1388200F0AB04 /* liboffsetfinder64.a */,
+				B5F8945420C1388200F0AB04 /* libplist.a */,
+				B5F8945520C1388200F0AB04 /* libplist++.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B5F8942520C1345F00F0AB04 /* Shelly10 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5F8943C20C1345F00F0AB04 /* Build configuration list for PBXNativeTarget "Shelly10" */;
+			buildPhases = (
+				B5F8942220C1345F00F0AB04 /* Sources */,
+				B5F8942320C1345F00F0AB04 /* Frameworks */,
+				B5F8942420C1345F00F0AB04 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Shelly10;
+			productName = Shelly10;
+			productReference = B5F8942620C1345F00F0AB04 /* Shelly10.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B5F8941E20C1345F00F0AB04 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Ben Sparkes";
+				TargetAttributes = {
+					B5F8942520C1345F00F0AB04 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = B5F8942120C1345F00F0AB04 /* Build configuration list for PBXProject "Shelly10" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B5F8941D20C1345F00F0AB04;
+			productRefGroup = B5F8942720C1345F00F0AB04 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B5F8942520C1345F00F0AB04 /* Shelly10 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B5F8942420C1345F00F0AB04 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5F8947320C13EAA00F0AB04 /* bootstrap.tar in Resources */,
+				B5F8943620C1345F00F0AB04 /* LaunchScreen.storyboard in Resources */,
+				B5F8943320C1345F00F0AB04 /* Assets.xcassets in Resources */,
+				B5F8943120C1345F00F0AB04 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B5F8942220C1345F00F0AB04 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5F8946A20C139EF00F0AB04 /* amfi.m in Sources */,
+				B5F8946120C1397A00F0AB04 /* kernel.m in Sources */,
+				B5F8944C20C1380C00F0AB04 /* root-rw.m in Sources */,
+				B5F8944A20C1380C00F0AB04 /* v0rtex.m in Sources */,
+				B5F8942E20C1345F00F0AB04 /* ViewController.m in Sources */,
+				B5F8942B20C1345F00F0AB04 /* AppDelegate.m in Sources */,
+				B5F8946D20C13A1400F0AB04 /* untar.m in Sources */,
+				B5F8946720C139C100F0AB04 /* helpers.m in Sources */,
+				B5F8944E20C1380C00F0AB04 /* offsetfinder.mm in Sources */,
+				B5F8944F20C1380C00F0AB04 /* main.m in Sources */,
+				B5F8946420C139A700F0AB04 /* patchfinder64.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B5F8942F20C1345F00F0AB04 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B5F8943020C1345F00F0AB04 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B5F8943420C1345F00F0AB04 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B5F8943520C1345F00F0AB04 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B5F8943A20C1345F00F0AB04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B5F8943B20C1345F00F0AB04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B5F8943D20C1345F00F0AB04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6EKJWC698P;
+				ENABLE_BITCODE = NO;
+				GCC_NO_COMMON_BLOCKS = NO;
+				INFOPLIST_FILE = Shelly10/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Shelly10",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = zone.sparkes.Shelly10;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = arm64;
+			};
+			name = Debug;
+		};
+		B5F8943E20C1345F00F0AB04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6EKJWC698P;
+				ENABLE_BITCODE = NO;
+				GCC_NO_COMMON_BLOCKS = NO;
+				INFOPLIST_FILE = Shelly10/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Shelly10",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = zone.sparkes.Shelly10;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = arm64;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B5F8942120C1345F00F0AB04 /* Build configuration list for PBXProject "Shelly10" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5F8943A20C1345F00F0AB04 /* Debug */,
+				B5F8943B20C1345F00F0AB04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B5F8943C20C1345F00F0AB04 /* Build configuration list for PBXNativeTarget "Shelly10" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5F8943D20C1345F00F0AB04 /* Debug */,
+				B5F8943E20C1345F00F0AB04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B5F8941E20C1345F00F0AB04 /* Project object */;
+}
