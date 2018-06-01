@@ -108,8 +108,7 @@ BOOL hasRun = false;
     }
     
     const char *args[] = (const char *[]) {
-        "-p",
-        "22",
+        "/shelly/bins/dropbear",
         "-p",
         "2222",
         "-R",

@@ -363,14 +363,14 @@ int execprog(const char *prog, const char* args[]) {
         args = (const char **)&(const char*[]){ prog, NULL };
     }
     
-    if (file_exists("/meridian") != 0) {
-        mkdir("/meridian", 0755);
+    if (file_exists("/shelly") != 0) {
+        mkdir("/shelly", 0755);
     }
-    if (file_exists("/meridian/logs") != 0) {
-        mkdir("/meridian/logs", 0755);
+    if (file_exists("/shelly/logs") != 0) {
+        mkdir("/shelly/logs", 0755);
     }
     
-    const char *logfile = [NSString stringWithFormat:@"/meridian/logs/%@-%lu",
+    const char *logfile = [NSString stringWithFormat:@"/shelly/logs/%@-%lu",
                            [[NSMutableString stringWithUTF8String:prog] stringByReplacingOccurrencesOfString:@"/" withString:@"_"],
                            time(NULL)].UTF8String;
     
