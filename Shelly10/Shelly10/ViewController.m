@@ -176,12 +176,7 @@ int remountRootFs() {
     NSOperatingSystemVersion osVersion = [[NSProcessInfo processInfo] operatingSystemVersion];
     int pre130 = osVersion.minorVersion < 3 ? 1 : 0;
     
-    int rv = mount_root(kslide, offsets.root_vnode, pre130);
-    if (rv != 0) {
-        return 1;
-    }
-    
-    return 0;
+    return mount_root(kslide, offsets.root_vnode, pre130);
 }
 
 - (void)failure {
