@@ -114,6 +114,11 @@ BOOL hasRun = false;
     inject_trust("/usr/lib/libhistory.6.0.dylib");
     inject_trust("/usr/lib/libncurses.5.dylib");
     
+    // bullshit for dropbear
+    mkdir("/etc/dropbear", 0755);
+    mkdir("/var/log", 0755);
+    fclose(fopen("/var/log/lastlog", "w+"));
+    
     const char *args[] = (const char *[]) {
         "/shelly/bins/dropbear",
         "-p",
